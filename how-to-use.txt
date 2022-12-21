@@ -9,3 +9,5 @@ pip install -r requirements.txt
 
 
 #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 this my personal token.
+#https://github.com/IdrissHmz/mail_schedule.git repo name
+#fnuaouprnyozevwc
