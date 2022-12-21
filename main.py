@@ -48,18 +48,16 @@ def create_body(args, type):
 
 sender = "hi_hamzaoui@esi.dz"
 pwd = "fnuaouprnyozevwc"
-receivers = "idrissham2000@gmail.com"
-subject = "first attempt to send an email with python"
-args_body = {
-    'laboratoire':"CNAM de paris",
-    'github' : "https://github.com/IdrissHmz"
-}
 type = 'stage'
 
  
 conf = json.load(open('conf.json'))
    
-print(conf)
+var = conf['stage']
+sender = var['sender']
+receivers = var['receivers']
+subject = var['subject']
+args_body = var['args_body']
 
 body = create_body(args_body, type)
 em = create_email_message(sender, receivers, subject, body)
