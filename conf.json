@@ -1,14 +1,22 @@
 {
-    "stage": {
+    "stage_fr": {
         "sender": "hi_hamzaoui@esi.dz",
         "receivers": [
-            "idrissham2000@gmail.com",
-            "hf_aboura@esi.dz"
+            "idrissham2000@gmail.com"
         ],
         "subject": "first attempt to send an email with python",
         "args_body": {
             "laboratoire": "ILOVEYOU",
             "github": "https://github.com/IdrissHmz"
         }
+    },
+    "master_en": {
+        "sender": "hi_hamzaoui@esi.dz",
+        "receivers": [
+            "idrissham2000@gmail.com",
+            "hf_aboura@esi.dz"
+        ],
+        "subject": "first attempt to send an email with python",
+        "args_body": {}
     }
 }
