@@ -6,3 +6,8 @@ The idea of this repository is to build a tool that automates sending emails to 
 - Generate SSL keys.
 - Generate Templates of emails using HTML.
 - Create the app ...  
+# Road map
+- Create beautifull templates
+- add a module for outlook
+- make tests
+- add functionalities for cc and bcc message types
